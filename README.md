@@ -1,4 +1,4 @@
-# GSC Skills
+# Google Search Console Skills
 
 Skills for analyzing Google Search Console data with Claude Code.
 
