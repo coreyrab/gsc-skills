@@ -1,6 +1,6 @@
-# Google Search Console Skills
+# Google Search Console Skills for Claude Code
 
-Skills for analyzing Google Search Console data with Claude Code.
+Analyze GSC exports to find SEO opportunities, content gaps, and paid search targets.
 
 ## What's Included
 
