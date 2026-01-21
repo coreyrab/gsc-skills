@@ -1,6 +1,6 @@
 # 📊 GSC Skills for Claude Code
 
-> **Turn Google Search Console data into board-ready insights.** AI agent skills for SEO analysis, content strategy, and paid search planning—built for startup founders and marketing leaders.
+> **Turn Google Search Console data into strategic growth insights.** AI agent skills for SEO analysis, content strategy, and paid search planning—built for startup founders and marketing leaders.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/skills-1-green.svg)](#skills)
@@ -15,7 +15,7 @@ Google Search Console has valuable data, but turning it into strategic decisions
 - ❌ Exporting CSVs and building spreadsheets
 - ❌ Manually classifying brand vs. non-brand keywords
 - ❌ No revenue impact estimates for opportunities
-- ❌ Can't easily share insights with board/investors
+- ❌ Hard to prioritize what actually matters
 
 **GSC Skills fixes this.** Drop in a GSC export, and get:
 
@@ -23,7 +23,7 @@ Google Search Console has valuable data, but turning it into strategic decisions
 - ✅ SEO quick wins sized by revenue potential
 - ✅ Content gap analysis with funnel mapping
 - ✅ Paid search strategy with budget allocation
-- ✅ Board-ready executive summaries
+- ✅ Prioritized action plans you can execute on
 
 ---
 
@@ -32,14 +32,14 @@ Google Search Console has valuable data, but turning it into strategic decisions
 ### Install via npx (Recommended)
 
 ```bash
-npx skills add coreyhaines31/gsc-skills
+npx skills add coreyrab/gsc-skills
 ```
 
 ### Manual Installation
 
 ```bash
 # Clone the repo
-git clone https://github.com/coreyhaines31/gsc-skills.git
+git clone https://github.com/coreyrab/gsc-skills.git
 
 # Copy skills to your Claude Code directory
 cp -r gsc-skills/skills/* ~/.agents/skills/
@@ -48,7 +48,7 @@ cp -r gsc-skills/skills/* ~/.agents/skills/
 ### Git Submodule (for teams)
 
 ```bash
-git submodule add https://github.com/coreyhaines31/gsc-skills.git .skills/gsc
+git submodule add https://github.com/coreyrab/gsc-skills.git .skills/gsc
 ```
 
 ---
@@ -57,7 +57,7 @@ git submodule add https://github.com/coreyhaines31/gsc-skills.git .skills/gsc
 
 | Skill | Description | Trigger Examples |
 |-------|-------------|------------------|
-| **[gsc-analyzer](skills/gsc-analyzer/)** | Strategic GSC analysis with revenue impact, brand segmentation, and executive summaries | "Analyze this GSC export", "How much SEO revenue are we missing?", "Prepare GSC data for board meeting" |
+| **[gsc-analyzer](skills/gsc-analyzer/)** | Strategic GSC analysis with revenue impact, brand segmentation, and prioritized recommendations | "Analyze this GSC export", "How much SEO revenue are we missing?", "What should we focus on this quarter?" |
 
 ---
 
@@ -87,11 +87,11 @@ git submodule add https://github.com/coreyhaines31/gsc-skills.git .skills/gsc
 ```
 → High-intent targets, SERP domination opportunities, budget allocation
 
-### Executive Summary
+### Strategic Summary
 ```
-"Prepare this GSC data for our board meeting"
+"Give me the TL;DR on our organic search performance"
 ```
-→ Headline metrics, key risks, opportunities with revenue estimates, resource asks
+→ Headline metrics, key risks, opportunities with revenue estimates, what to do next
 
 ---
 
@@ -121,11 +121,11 @@ git submodule add https://github.com/coreyhaines31/gsc-skills.git .skills/gsc
 - Competitor conquesting targets
 - Budget allocation recommendations
 
-### Mode 5: Executive Summary
-- Board-ready format with metrics table
+### Mode 5: Strategic Summary
+- Headline metrics with status indicators
 - Key risks with business impact
 - Opportunities with revenue estimates
-- 90-day priorities with owners
+- 90-day priorities
 
 ---
 
@@ -165,7 +165,7 @@ git submodule add https://github.com/coreyhaines31/gsc-skills.git .skills/gsc
    - No dedicated pages for "best AI for X" queries
    - Action: Create 5 SEO landing pages
 
-## Resource Ask
+## What To Do Next
 - 1 FTE content marketer for SEO content
 - $5-10K/month PPC budget for non-brand acquisition
 ```
@@ -179,7 +179,7 @@ Contributions welcome! Ideas for improvement:
 - [ ] Additional industry benchmarks (e-commerce, B2B, etc.)
 - [ ] Integration with other data sources (GA4, Ahrefs, etc.)
 - [ ] Automated anomaly detection refinements
-- [ ] More executive summary templates
+- [ ] More summary templates
 
 ### File Structure
 

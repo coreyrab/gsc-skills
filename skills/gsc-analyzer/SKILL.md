@@ -1,6 +1,6 @@
 ---
 name: gsc-analyzer
-description: Strategic analysis of Google Search Console data for startup founders and marketing leaders. Transforms GSC exports into board-ready insights with revenue impact estimates, competitive positioning, and prioritized action plans. Use when a user provides a GSC zip/CSV for (1) Brand vs non-brand analysis with revenue implications, (2) SEO opportunities with business impact sizing, (3) Content gap analysis with funnel mapping, (4) Paid search strategy with budget allocation, or (5) Executive summaries for investors/board.
+description: Strategic analysis of Google Search Console data for startup founders and marketing leaders. Transforms GSC exports into actionable growth insights with revenue impact estimates, competitive positioning, and prioritized action plans. Use when a user provides a GSC zip/CSV for (1) Brand vs non-brand analysis with revenue implications, (2) SEO opportunities with business impact sizing, (3) Content gap analysis with funnel mapping, (4) Paid search strategy with budget allocation, or (5) Strategic summaries with prioritized recommendations.
 ---
 
 # Google Search Console Analyzer
@@ -15,7 +15,7 @@ Transform GSC data into strategic, revenue-focused insights for startup founders
 4. Filter irrelevant/spam queries
 5. Ask which analysis mode(s) to run
 6. Execute analysis with revenue impact estimates
-7. Generate executive-ready report with prioritized actions
+7. Generate strategic report with prioritized actions
 
 ## Business Context Collection
 
@@ -30,7 +30,7 @@ AskUserQuestion:
    - Options: <$200/yr, $200-500/yr, $500-2000/yr, $2000+/yr, Enterprise pricing
 
 3. "What's your primary goal for this analysis?"
-   - Options: Board/investor update, Growth planning, Competitive analysis, All of the above
+   - Options: Growth planning, Competitive analysis, Quarterly prioritization, All of the above
 ```
 
 ## Brand Term Detection (Required)
@@ -91,9 +91,9 @@ AskUserQuestion:
 - Competitor conquesting targets
 - Budget allocation recommendations
 
-### Mode 5: Executive Summary
+### Mode 5: Strategic Summary
 
-**For**: Board meetings, investor updates, exec reviews.
+**For**: Quarterly planning, team alignment, prioritization.
 
 **Read**: `references/strategic_frameworks.md`
 
@@ -156,7 +156,7 @@ Flag automatically:
 
 ## Example Outputs
 
-- "Analyze this GSC data" → Full analysis with exec summary
+- "Analyze this GSC data" → Full analysis with strategic summary
 - "How much revenue are we leaving on the table?" → Revenue impact mode
-- "Prepare for board meeting" → Executive summary format
-- "What should we focus on this quarter?" → Prioritized OKRs
+- "Give me the TL;DR on our SEO performance" → Strategic summary
+- "What should we focus on this quarter?" → Prioritized recommendations
